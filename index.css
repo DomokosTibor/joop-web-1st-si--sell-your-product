@@ -35,20 +35,20 @@ header {
 	background: blue;
 	color: white;
 }
-#name {
+.name {
 	float: left;
 	padding-left: 20px;
 	font-size: 3em;
 	line-height: 100px;
 }
-#menu {
+.menu {
 	float: right;
 	padding-top: 20px;
 	padding-right: 20px;
 	font-size: 1.2em;
 	line-height: 40px;
 }
-#menu ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,10 +57,10 @@ header {
 	border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
 }
-#menu li {
+.menu li {
     float: left;
 }
-#menu li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -72,10 +72,10 @@ header {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
-#menu li a:hover {
+.menu li a:hover {
     background-color: orange;
 }
-#main {
+.main {
     margin: 0px auto;
     padding: 100px 10px 10px 10px;
     width: 780px;
@@ -85,7 +85,7 @@ header {
 	line-height: 1.3em;
 	box-shadow: 0px 0px 30px 1px #333;
 }
-#item {
+.item {
 	float: left;
 	margin: 0px 10px 0px 10px;
 	padding: 5px;
@@ -98,11 +98,11 @@ header {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
-#item a {
+.item a {
     text-decoration: none;
 	color: red;
 }
-#item:hover {
+.item:hover {
     background-color: orange;
 	-webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -110,15 +110,16 @@ header {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
-#item, #item img {
+.item,
+.item img {
 	width: 220px;
 	height: 165px;
 }
-#item img {
+.item img {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;	
 }
-#price {
+.price {
 	margin: auto;
     margin-top: -15px;
     width: 80px;
